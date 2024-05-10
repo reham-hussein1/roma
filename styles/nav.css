@@ -1,0 +1,38 @@
+/* variables */
+:root {
+  --main-color: #1e677c;
+  --text-color: #3f5c64;
+  --bg-color: #e6e7d4;
+  --container-color: #c57f23;
+}
+#navbar {
+  background-color: transparent;
+  z-index: 100;
+}
+nav .container {
+  margin: 0 100px;
+}
+#nav-link {
+  color: var(--text-color);
+  font-size: 17px;
+  font-weight: 700;
+}
+#nav-link:hover {
+  color: var(--main-color);
+}
+footer {
+  margin-top: 30px;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  text-decoration: none;
+}
+#footer-con {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.p-footer {
+  margin-top: 20px;
+}
+.a-footer {
+  color: var(--container-color);
+}

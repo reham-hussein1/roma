@@ -1,0 +1,191 @@
+/* variables */
+:root {
+  --main-color: #1e677c;
+  --text-color: #3f5c64;
+  --bg-color: #e6e7d4;
+  --container-color: #c57f23;
+}
+.contact {
+  text-align: center;
+  background-color: var(--bg-color);
+  border-radius: 0 0 100px 100px;
+  height: 200px;
+}
+.about-h4 {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: var(--container-color);
+}
+.top {
+  margin-top: 20px;
+  h3 {
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 600;
+  }
+}
+.div-build-icon {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: var(--main-color);
+  position: relative;
+}
+.div-build-icon:hover {
+  background-color: var(--text-color);
+}
+#build-icon {
+  font-size: 30px;
+  color: var(--container-color);
+  position: absolute;
+}
+.div-build-icon:hover #build-icon {
+  color: var(--bg-color);
+}
+.middle {
+  text-align: center;
+  position: relative;
+}
+#middle-icon {
+  position: absolute;
+  left: 40%;
+}
+.card-deck {
+  text-align: center;
+}
+#card-body {
+  border-radius: 20px;
+}
+#call-us {
+  margin-top: 40px;
+}
+.form-container {
+  width: 100%;
+  background: linear-gradient(#212121, #212121) padding-box,
+    linear-gradient(
+        145deg,
+        transparent 35%,
+        var(--container-color),
+        var(--main-color)
+      )
+      border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--bg-color);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: var(--bg-color);
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid var(--text-color);
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: var(--bg-color);
+  height: 96px;
+  border: 1px solid var(--text-color);
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: var(--container-color);
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: var(--container-color);
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: var(--bg-color);
+  font-weight: 600;
+  width: 40%;
+  background: var(--text-color);
+  border: 1px solid var(--main-color);
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: var(--container-color);
+  border-color: var(--main-color);
+  color: var(--bg-color);
+}
+.div-pto {
+  text-align: center;
+  margin-top: 20px;
+
+  h4 {
+    font-weight: 600;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}
+.mg-t {
+  margin-top: 30px;
+}
+.img-contact {
+  width: 100%;
+  height: 100%;
+}
