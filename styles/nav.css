@@ -36,3 +36,35 @@ footer {
 .a-footer {
   color: var(--container-color);
 }
+#user-icon {
+  position: relative;
+}
+.drop-pof {
+  position: absolute;
+  font-size: 15px;
+  text-align: left;
+  width: 60px;
+  text-decoration: none;
+  display: none;
+}
+.drop-pof div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.drop-pof div a{
+  color: var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+}
+.drop-pof div a:hover{
+  text-decoration: none;
+}
+.drop-pof div i{
+  font-size: 17px;
+  font-weight: 600;
+}
+#user-icon:hover .drop-pof{
+  display: block;
+}
